@@ -2,11 +2,11 @@
 The following refactoring was performed in this directory:
 
  - index.html
-Add class "header" to header div tag
+Convert div tags to header, nav, main, section, article, and footer
 Add id to "search engine optimization"
-Change all content classes to "content-child"
+Change all content classes to "content"
 Change "benefits" class to "benefit"
-Change all benefit classes to "benefit-child"
+Change all benefit classes to "benefit"
 Add alt to all images
 
  - style.css

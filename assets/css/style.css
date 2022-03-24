@@ -10,14 +10,14 @@ body {
 }
 
 /* header properties */
-.header {
+header {
     padding: 20px;
     background-color: #2a607c;
     color: #ffffff;
 }
 
 /* site title properties */
-.header h1 {
+header h1 {
     display: inline-block;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 48px;
@@ -29,7 +29,7 @@ body {
 }
 
 /* navigation links */
-.navigation {
+nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -39,7 +39,7 @@ body {
 }
 
 /* navigation list properties */
-.navigation li {
+nav li {
     display: inline-block;
     margin-left: 25px;
 }
@@ -78,14 +78,14 @@ p {
 }
 
 /* content properties */
-.content {
+main {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
 /* content child properties */
-.content-child {
+.content {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -95,18 +95,18 @@ p {
 }
 
 /* content child images */
-.content-child img {
+.content img {
     max-height: 200px;
 }
 
 /* content child headings */
-.content-child h2 {
+.content h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
 /* benefit properties */
-.benefit {
+article {
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -118,7 +118,7 @@ p {
 }
 
 /* bendfit child properties */
-.benefit-child {
+.benefit {
     margin-bottom: 32px;
     color: #ffffff;
     text-align: center;
@@ -132,7 +132,7 @@ p {
 }
 
 /* footer properties */
-.footer {
+footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -140,6 +140,6 @@ p {
 }
 
 /* footer tagline */
-.footer h2 {
+footer h2 {
     font-size: 20px;
 }
